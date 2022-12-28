@@ -1,0 +1,56 @@
+body {
+    background: black;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.block {
+    display:flex;
+    background: white;
+    border: 1px solid rgb(238, 233, 233);
+    width: 14vh;
+    height: 14vh;
+  
+    justify-content: center;
+    text-align: center;
+}
+
+.price {
+    position: absolute;
+    font-size: 1vh;
+    margin-top: 6vh;
+    margin-right: 1vh;
+}
+
+.name {
+    margin-top: 4vh;
+    font-size: 10px;
+    color: orange;
+    font-weight: bold;
+    position: absolute;
+}
+
+.info {
+    position: absolute;
+    border: none;
+    background: orange;
+    width: 7vh;
+    height: 2vh;
+    margin-top: 11vh;
+    margin-left: 0vh;
+}
+
+.inner {
+    font-size: 1vh;
+}
+
+.icon {
+    margin-top: 0vh;
+    margin-left: -1vh;
+    height: 3vh;
+    width: 3vh;
+}
