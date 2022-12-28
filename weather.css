@@ -1,0 +1,35 @@
+.main {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20vh;
+    gap: 1px;
+}
+
+.weather {
+    justify-content: center;
+    width: 5vh;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1px;
+}
+
+.date {
+    background: rgb(17, 136, 184);
+    border: 1px solid;
+    height: 2vh;
+    width: 5vh;
+    text-align: center;
+    color: white;
+}
+
+.day {
+    margin-top: 0vh;
+    width:3vh;
+    height: 3vh;
+}
+
+.weather:hover {
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.705);
+}
